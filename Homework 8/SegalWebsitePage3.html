@@ -1,0 +1,111 @@
+<html>
+    <html>
+        <head>
+          <title>Segal Website Page 3</title>
+    
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <script>
+
+
+            function checkAnswer() {
+        
+              var fName = document.getElementById("fName").value;
+              if (fName == "") 
+              var fName = document.getElementById("lName").value;
+              if (fName == "") 
+              var fName = document.getElementById("Email").value;
+              if (fName == "") 
+              {
+                document.getElementById("fname").style.backgoundColor = "red" ;
+                document.getElementById("fName").focus();
+                document.getElementById("lName").style.backgoundColor = "red" ;
+                document.getElementById("lName").focus();
+                document.getElementById("Email").style.backgoundColor = "red" ;
+                document.getElementById("Email").focus();
+              } else { 
+                window.alert("thank you");
+              }
+            }
+            function getinformation() 
+            {
+              var yesButton = document.getElementsById("yes").value;
+              var noButton = getElementById("no").value;
+              if (document.getElementsById("yes").checked == false)
+              {
+                window.alert("bro!");
+              }
+              if(document.getElementById("no").checked == true)
+            }
+          </script>
+        </head>
+
+      <body>
+      
+        <h2>Contact Form</h2>
+        <br>
+        <br>
+  
+        <form action="nextPage.html" type="Post">
+      
+
+          <br>
+          <br>
+          <h3>Terms of submission</h3>
+          <h5>you must have swag if you submit this form. by submiting this form you are in agreement of having swag.</h5>
+          <select>
+            <option value="Agree" >Agree</option>
+            <option value="Disagree">Disagree</option>
+          </select>
+          <h3>What would you rather eat</h3>
+          <input type="radio" name="food" value="enchilada">Concrete Enchilada<br>
+          <input type="radio" name="food" value="bread">Glass Bread<br>
+          <input type="radio" name="food" value="beans">Beans on toaste<br>
+          <input type="radio" name="food" value="eggs">Wood eggs
+      
+          <h3>which states have you been to</h3>
+          <input type="checkbox" name="Utah" value="Utah">Utah<br>
+          <input type="checkbox" name="Montana" value="Montana">Montana<br>
+          <input type="checkbox" name="Wyoming" value="Wyoming" >Wyoming<br>
+          <input type="checkbox" name="Washington" value="Washington" >Washington<br>
+          <input type="checkbox" name="Dakota" value="Dakota" >North Dakota<br>
+          <input type="checkbox" name="colorado" value="colorado" >Colorado<br>
+          <br>
+          <br>
+          <button id="mySubmit" type="button" class="btn btn-primary">Submit</button>
+
+        </form>
+  
+        <h1>contact me please</h1>
+        <form> First name: <input type="text" id="fName"><span"fnameMessage> </span>
+        <br>
+        <br>
+        <form> Last Name: <input type="text" id="lName"><span"fnameMessage> </span>
+        <br>
+        <br>
+        <form> Email: <input type="text" id="Email"><span"fnameMessage> </span>
+        <br>
+        <br>
+        <input type="radio" name="yesorno" id="yes"> yes
+        <input type="radio" name="yesorno" id="no"> no <br>
+    <br>
+    <br>
+    <button id="submit" class="btn btn-primary" onclick="checkAnswer(); getInformation();"> Submit </button>
+    
+    
+    </form>
+       <br>
+
+       
+       <br>
+       <br>
+          <p><a href="SegalWebsitePage1.html">See my Homepage</a></p>
+       <br>
+       <p><a href="SegalWebsitePage2.html">Read my short story</a></p>
+<br>
+<br>
+      </body>
+      
+      </html>

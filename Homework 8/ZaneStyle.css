@@ -1,0 +1,21 @@
+  
+  #ZanesColor {
+    color: bisque;
+    background-color: mediumpurple;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif ;
+   
+  }
+
+  #ZanesSexyColor {
+    color: darkgoldenrod;
+    background-color: darkslategrey;
+    font-size: xx-large;
+    font-style: italic;
+    font-variant-caps: petite-caps;
+  }
+
+#ZaneBack {
+    background-color: darkkhaki;
+    background-image: url(p1180258.jpg);
+}
